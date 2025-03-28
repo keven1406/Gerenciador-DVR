@@ -1,13 +1,8 @@
 public class DVR {  						
 	//Atributos							
-	private String nome;
-	private String serial;
-	private String modelo;
-	private int porta;
-	private string armazenamento;
-	private int quantidadeCamera;
-	private int quantidadeVaga;
-
+	private String nome, serial, modelo, armazenamento;
+	private int porta, quantidadeCamera, quantidadeVaga;
+	
 	//Métodos
 	public DVR (String nome, String serial, String modelo, int porta; String armazenamento, int quantidade, int quantidadeVaga) {
 		this.nome = nome;
