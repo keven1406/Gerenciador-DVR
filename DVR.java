@@ -38,11 +38,21 @@ public class DVR {
 		return modelo;
 	}
 	public void alterarArmazenamento (String armazenamento) {
-		
+		this.armazenamento = armazenamento;
 	}
-	public String retornarArmazenmento () {}
-	public void alterarQuantidadeCamera (int quantidadeCamera) {}
-	public int retornarQuantidadeCamera() {}
-	public void alterarQuantidadeVaga (int quantidadeVaga) {}
-	public int retornarQuantidadeVaga () {}
+	public String retornarArmazenmento () {
+		return armazenamento;
+	}
+	public void alterarQuantidadeCamera (int quantidadeCamera) {
+		this.quantidade = quantidade;
+	}
+	public int retornarQuantidadeCamera() {
+		return quantidade;
+	}
+	public void alterarQuantidadeVaga (int quantidadeVaga) {
+		this.quantidadeVaga = quantidadeVaga;
+	}
+	public int retornarQuantidadeVaga () {
+		return quantidadeVaga;
+	}
 }
